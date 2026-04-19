@@ -1,100 +1,190 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
     <title>TechFront 2024</title>
+
+    <style>
+        body {
+            font-family: Arial;
+            margin: 0;
+            background: paleturquoise;
+            color: white;
+        }
+
+        
+        header {
+            background: linear-gradient(to right, black, navy);
+            color: cyan;
+            text-align: center;
+            padding: 25px;
+        }
+
+        
+        section {
+            background: black;
+            margin: 20px;
+            padding: 20px;
+            border-radius: 12px;
+        }
+
+        
+        h2 {
+            color: cyan;
+        }
+
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th {
+            background: cyan;
+            color: black;
+        }
+
+        th, td {
+            border: 1px solid gray;
+            padding: 10px;
+            text-align: center;
+        }
+
+        
+        .speaker {
+            background: blue;
+            padding: 12px;
+            margin: 10px;
+            border-radius: 10px;
+        }
+
+        .speaker:hover {
+            background: maroon;
+        }
+
+        
+        input, select {
+            width: 100%;
+            padding: 8px;
+            margin: 5px 0;
+            background: black;
+            color: white;
+            border: 1px solid gray;
+        }
+
+        
+        button {
+            background: cyan;
+            color: black;
+            padding: 10px;
+            border: none;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background: deepskyblue;
+        }
+    </style>
 </head>
 
 <body>
 
-<h1>TechFront 2024</h1>
-<p>Explore Future Technology</p>
+<header>
+    <h1>🚀 TechFront 2024</h1>
+    <p>Explore Future Technology</p>
+</header>
 
-<hr>
 
-<!-- Schedule -->
-<h2>Schedule</h2>
+<section>
+    <h2>📅 Schedule</h2>
 
-<table border="1">
-    <tr>
-        <th>Time</th>
-        <th>Topic</th>
-        <th>Speaker</th>
-    </tr>
+    <table>
+        <tr>
+            <th>Time</th>
+            <th>Topic</th>
+            <th>Speaker</th>
+        </tr>
 
-    <tr>
-        <td>10:00 AM</td>
-        <td>Artificial Intelligence</td>
-        <td>Ms. Taniya</td>
-    </tr>
+        <tr>
+            <td>10:00 AM</td>
+            <td>Artificial Intelligence</td>
+            <td>Ms. Taniya</td>
+        </tr>
 
-    <tr>
-        <td>12:00 PM</td>
-        <td>Web Design</td>
-        <td>Ms. Sakshi</td>
-    </tr>
+        <tr>
+            <td>12:00 PM</td>
+            <td>Web Design</td>
+            <td>Ms. Sakshi</td>
+        </tr>
 
-    <tr>
-        <td>2:00 PM</td>
-        <td>Cyber Security</td>
-        <td>Ms. Twinkle</td>
-    </tr>
-</table>
+        <tr>
+            <td>2:00 PM</td>
+            <td>Cyber Security</td>
+            <td>Ms. Twinkle</td>
+        </tr>
+    </table>
+</section>
 
-<hr>
 
-<!-- Speakers -->
-<h2>Speakers</h2>
+<section>
+    <h2>🎤 Speakers</h2>
 
-<h3>Ms. Taniya</h3>
-<p>AI Expert with 10+ years experience</p>
+    <div class="speaker">
+        <h3>Ms. Taniya</h3>
+        <p>AI Expert with 10+ years experience</p>
+    </div>
 
-<h3>Ms. Sakshi</h3>
-<p>Frontend Developer & Designer</p>
+    <div class="speaker">
+        <h3>Ms. Sakshi</h3>
+        <p>Frontend Developer & Designer</p>
+    </div>
 
-<h3>Ms. Twinkle</h3>
-<p>Cyber Security Specialist</p>
+    <div class="speaker">
+        <h3>Ms. Twinkle</h3>
+        <p>Cyber Security Specialist</p>
+    </div>
+</section>
 
-<hr>
 
-<!-- Registration -->
-<h2>Registration Form</h2>
+<section>
+    <h2>📝 Registration</h2>
 
-<form>
-    Name:<br>
-    <input type="text" name="name"><br><br>
+    <form>
+        Name:
+        <input type="text" placeholder="Enter your name">
 
-    Email:<br>
-    <input type="email" name="email"><br><br>
+        Email:
+        <input type="email" placeholder="Enter your email">
 
-    Ticket Type:<br>
-    <select name="ticket">
-        <option>Basic</option>
-        <option>Standard</option>
-        <option>VIP</option>
-    </select><br><br>
+        Ticket Type:
+        <select>
+            <option>Basic</option>
+            <option>Standard</option>
+            <option>VIP</option>
+        </select>
 
-    Ticket Availability:<br>
-    Basic:<br>
-    <meter value="80" max="100"></meter><br>
+        <p>🎟 Ticket Availability:</p>
 
-    Standard:<br>
-    <meter value="50" max="100"></meter><br>
+        Basic:
+        <meter value="80" max="100"></meter><br>
 
-    VIP:<br>
-    <meter value="20" max="100"></meter><br><br>
+        Standard:
+        <meter value="50" max="100"></meter><br>
 
-    <button type="submit">Register</button>
-</form>
+        VIP:
+        <meter value="20" max="100"></meter><br><br>
 
-<hr>
+        <button type="submit">Register</button>
+    </form>
+</section>
 
-<!-- Video -->
-<h2>Promo Video</h2>
 
-<iframe width="400" height="250"
-    src="https://www.youtube.com/embed/tgbNymZ7vqY">
-</iframe>
+<section>
+    <h2>🎥 Promo Video</h2>
+
+    <iframe width="100%" height="300"
+        src="https://www.youtube.com/embed/tgbNymZ7vqY">
+    </iframe>
+</section>
 
 </body>
 </html>
