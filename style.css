@@ -1,0 +1,96 @@
+body {
+    font-family: Arial;
+    margin: 0;
+    background: paleturquoise;
+    color: white;
+}
+header {
+    background: linear-gradient(to right, black, navy);
+    color: cyan;
+    text-align: center;
+    padding: 25px;
+}
+section {
+    background: black;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 12px;
+}
+h2 {
+    color: cyan;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+th {
+    background: cyan;
+    color: black;
+}
+th, td {
+    border: 1px solid gray;
+    padding: 10px;
+    text-align: center;
+}
+.ticket {
+    background: blue;
+    padding: 12px;
+    margin: 8px;
+    border-radius: 8px;
+    display: inline-block;
+    cursor: grab;
+    text-align: center;
+}
+.ticket:hover {
+    background: cyan;
+    color: black;
+}
+.drop-zone {
+    border: 2px dashed cyan;
+    padding: 20px;
+    margin: 15px 0;
+    text-align: center;
+    border-radius: 10px;
+    min-height: 120px;
+}
+.drop-zone.dragover {
+    background: rgba(0, 255, 255, 0.1);
+    border-color: deepskyblue;
+}
+.cart-item {
+    background: navy;
+    padding: 10px;
+    margin: 8px 0;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.remove-btn {
+    background: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.remove-btn:hover {
+    background: darkred;
+}
+input, select {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0;
+    background: black;
+    color: white;
+    border: 1px solid gray;
+}
+button {
+    background: cyan;
+    color: black;
+    padding: 10px;
+    cursor: pointer;
+}
+button:hover {
+    background: deepskyblue;
+}
